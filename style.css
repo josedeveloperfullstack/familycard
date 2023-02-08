@@ -1,3 +1,58 @@
 body {
-    color: red;
+    margin: 80px auto;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.FamilyCard {
+    width: 60%;
+    border-radius: 100px;
+}
+
+.card {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: burlywood;
+    color: #2b2839;
+    border-bottom: 6px solid brown;
+    border-radius: 100px;
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.border-blue {
+    border: 1px dotted brown;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+/* Estilos para dispositivos móviles */
+.card:hover {
+    background-color: wheat;
+    box-shadow: 10px 10px 5px #888888,
+              -10px -10px 5px #888888;
+
+}
+
+
